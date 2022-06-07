@@ -1,14 +1,12 @@
 module.exports = {
+    title: 'M-UI',
+    base: '/MUI/',
     themeConfig: {
-        title: 'M-UI',
-        base: '/MUI/',
-        themConfig: {
-            nav: [
-                { text: 'Home', link: '/' },
-                { text: 'Github', link: 'https://github.com/haoyue886/MUI' },
-                { text: 'Npm', link: 'https://www.npmjs.com/package/m-ui0' }
-            ]
-        },
+        nav: [
+            { text: 'Home', link: '/' },
+            { text: 'Github', link: 'https://github.com/haoyue886/MUI' },
+            { text: 'Npm', link: 'https://www.npmjs.com/package/m-ui0' }
+        ],
         sidebar: [
             '/',
             '/componentDocs/button',
